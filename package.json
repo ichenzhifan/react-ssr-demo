@@ -8,7 +8,8 @@
     "dev:server": "webpack --config webpack.server.js --watch",
     "dev:start": "nodemon --watch build --exec node ./build/bundle.js",
     "dev:client": "webpack --config webpack.client.js --watch",
-    "dev:mock": "nodemon mock"
+    "dev:mock": "nodemon mock",
+    "dev:pupetter": "nodemon pupeteer"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "isomorphic-style-loader": "^5.1.0",
     "nodemon": "^2.0.2",
     "puppeteer": "^2.1.1",
+    "source-map-support": "^0.5.16",
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",

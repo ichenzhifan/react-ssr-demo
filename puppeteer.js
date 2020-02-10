@@ -16,7 +16,7 @@ const render = async (req, res) => {
   await page.goto(url, {waitUntil: 'networkidle0'});
   const content = await page.content();
   await browser.close();
-  
+
   res.send(content);
 };
 

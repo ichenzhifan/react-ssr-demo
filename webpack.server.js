@@ -10,6 +10,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'build')
   },
+  devtool: 'source-map',
   externals: [nodeExternals()],
   module: {
     rules: [
